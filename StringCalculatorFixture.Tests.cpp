@@ -19,9 +19,22 @@ class StringCalculatorTestFixture:public testing::Test{
 };
  TEST_F(StringCalculatorTestFixture,GivenEmptyStringZeroIsExpected){
      //Arrangee
-
+   
     string input="";
     int expectedValue=10;
     //Act
    int actualValue=  objUnderTest->Add(input);
     //Assert
+    ASSERT_EQ(actualValue,expectedValue);
+ }
+TEST_F(StringCalculatorTestFixture,Given2numbers){
+    //Arrangee
+   
+    string input="1,2";
+    int expectedValue=3;
+    //Act
+   int actualValue=  objUnderTest->Add(input);
+    //Assert
+    ASSERT_EQ(actualValue,expectedValue);
+}
+ 
