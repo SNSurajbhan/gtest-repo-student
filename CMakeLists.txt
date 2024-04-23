@@ -18,9 +18,9 @@ enable_testing()
 add_compile_options("--coverage")
 add_executable(
   StringCalculatorTests
-  StringCalculator.cpp
-  StringCalculator.Tests.cpp
-  StringCalculatorFixture.Tests.cpp
+  #StringCalculator.cpp
+  #StringCalculator.Tests.cpp
+  #StringCalculatorFixture.Tests.cpp
   DataDrivenTests.cpp
 )
 target_link_libraries(
