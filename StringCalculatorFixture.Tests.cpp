@@ -1,3 +1,6 @@
+#include "StringCalculator.h"
+#include <gtest/gtest.h>
+
 //Fixture Class
 class StringCalculatorTestFixture:public testing::Test{
         protected:
