@@ -5,7 +5,7 @@
 
 using namespace std;
 
-class StringCalculatorFixture {
+class StringCalculator {
 public:
-	int Add(const string &input);
+    int Add(const std::string& input);
 };
