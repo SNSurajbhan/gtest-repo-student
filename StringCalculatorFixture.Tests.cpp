@@ -2,7 +2,7 @@
 #include <gtest/gtest.h>
 
 //Fixture Class
-class StringCalculatorTestFixture:public testing::Test{
+class StringCalculatorTestFixture:public testing::Test_F{
         protected:
         StringCalculator *objUnderTest;
         static void SetUpTestSuite() {
